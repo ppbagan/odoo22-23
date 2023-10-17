@@ -22,7 +22,7 @@ class lista_tareas(models.Model):
     #esto se hace para que podamos utilizar el campo en busquedas, filtrados y ordenaciones
     urgente = fields.Boolean(compute="_value_urgente", store=True)
     realizada = fields.Boolean()
-
+    #prueba
 
     #Este es un ejemplo de "valor computado." Este computo depende de la variable prioridad.
     #La dependencia se indica mediante el decorador
